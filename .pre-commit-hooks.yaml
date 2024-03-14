@@ -1,0 +1,40 @@
+- id: legacy-pre-commit
+  name: Legacy Kitware pre-commit checks
+  description: Checks author, whitespace, filesize etc
+  entry: pre-commit
+  language: script
+  stages: [pre-commit]
+  verbose: true
+  pass_filenames: false
+- id: legacy-prepare-commit-msg
+  name: Legacy Kitware prepare commit message
+  description: A placeholder for local chaining of prepare-commit-msg checks
+  entry: prepare-commit-msg
+  language: script
+  stages: [prepare-commit-msg]
+  verbose: true
+  pass_filenames: false
+- id: legacy-commit-msg
+  name: Legacy Kitware commit message
+  description: Checks standard format of commit messages
+  entry: commit-msg
+  language: script
+  stages: [commit-msg]
+  verbose: true
+  pass_filenames: false
+- id: legacy-post-commit
+  name: Legacy Kitware post commit checks
+  description: A placeholder for local chaining of post-commit checks
+  entry: post-commit
+  language: script
+  stages: [post-commit]
+  verbose: true
+  pass_filenames: false
+- id: legacy-pre-push
+  name: Legacy Kitware pre-push checks
+  description: A placeholder for local chaining of pre-push checks
+  entry: pre-push
+  language: script
+  stages: [pre-push]
+  verbose: true
+  pass_filenames: false
